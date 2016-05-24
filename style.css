@@ -1,0 +1,241 @@
+body {
+  	padding-top: 70px;
+  	background-color: #FFFFFF;
+}
+
+.container .jumbotron {
+	border-radius: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: #f2f2f2;
+	align-items: center;
+}
+
+.projects .synopsis img {
+	max-width: 150px;
+	max-height: 150px;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	transition: all .4s ease 0s;
+}
+
+.projects .synopsis h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	padding: 5px;
+	transition: all .4s ease 0s;
+}
+
+.projects .synopsis h4:hover {
+	background-color: #FFFFFF;
+	transition: all .4s ease 0s;
+}
+
+.projects .synopsis img:hover {
+	-webkit-filter: grayscale(0%); 
+	filter: grayscale(0%);
+	transition: all .4s ease 0s;
+}
+
+.main-header img {
+	max-width: 250px;
+	max-height: 250px;
+	border-radius: 50%;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+/* my name in big font*/
+.main-header h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 500%;
+	color: #333333;
+	letter-spacing: 5px;
+  	padding: 10px;
+  	text-align: center;
+  	border-style: solid;
+  	border-color: #000000;
+  	border-width: 2px;
+}
+
+/* the little */
+.main-header p {
+	text-align: center;
+	font-size: 100%;
+	color: #000000;
+}
+
+.projects img {
+	max-width: 500px;
+	max-height: 500px;
+}
+
+/* big font */
+.projects h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 500%;
+	color: #000000;
+	letter-spacing: 5px;
+  	padding: 10px;
+  	text-align: center;
+  	border-style: solid;
+  	border-color: #000000;
+  	border-width: 2px;
+}
+
+.projects h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 225%;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+
+}
+
+/* the little words under my name */
+.projects p {
+	text-align: center;
+	font-size: 100%;
+	color: #000000;
+}
+
+.projects .description {
+	font-size: 120%;
+	color: #000000;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+}
+
+.projects .personal-links p {
+	font-size: 150%;
+	text-align: center;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	text-decoration: none;
+	transition: all .4s ease 0s;
+}
+
+.projects .personal-links a:hover {
+	text-decoration: none;
+}
+
+.projects .personal-links p:hover {
+	color: #FFFFFF;
+	background: #000000;
+	text-decoration: none;
+}
+
+.container .bottom h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 105%;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	border-style: solid;
+	border-color: #e6e6e6;
+	border-width: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+}
+
+.container .bottom p {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 90%;
+	color: #000000;
+	text-align: center;
+}
+
+/*navbar formatting*/
+@media (min-width: 768px){
+	.navbar-nav{
+	    margin: 0 auto;
+	    display: table;
+	    table-layout: fixed;
+	    float:none;
+	    font-size: 175%;
+	}
+} 
+
+/* navbar */
+.navbar-default {
+    background-color: #808080;
+    border-bottom-width: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: 'Quicksand', sans-serif;
+	color: #000000;
+	transition: all .4s ease 0s;
+}
+
+/* stupid pipes in header */
+.vertical-divider {
+	font-family: 'Quicksand', sans-serif;
+	color: #000000;
+	font-size: 110%;
+	padding-top: 1.2%;
+}
+
+/* color of mouse-over navbar text */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #FFFFFF;
+}
+
+/* color of mouse-over active navbar text & background */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+    background-color: #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
