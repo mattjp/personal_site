@@ -1,6 +1,12 @@
 body {
-  	padding-top: 70px;
-  	background-color: #FFFFFF;
+  	background: url(tree_super_low.jpg);
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 300px;
 }
 
 .container .jumbotron {
@@ -8,230 +14,304 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	align-items: center;
+	background: rgba(204, 204, 204, 0.0);
 }
 
 .jumbotron {
-	background-color: #f2f2f2;
 	align-items: center;
 }
 
-.projects .synopsis img {
-	max-width: 150px;
-	max-height: 150px;
-	-webkit-filter: grayscale(100%); 
-	filter: grayscale(100%);
-	transition: all .4s ease 0s;
-}
-
-.projects .synopsis h4 {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 700;
-	color: #000000;
-	text-align: center;
-	border-left-style: solid;
-	border-left-width: 1px;
-	border-left-color: #000000;
-	border-right-style: solid;
-	border-right-width: 1px;
-	border-right-color: #000000;
-	padding: 5px;
-	transition: all .4s ease 0s;
-}
-
-.projects .synopsis h4:hover {
-	background-color: #FFFFFF;
-	transition: all .4s ease 0s;
-}
-
-.projects .synopsis img:hover {
-	-webkit-filter: grayscale(0%); 
-	filter: grayscale(0%);
-	transition: all .4s ease 0s;
-}
-
-.main-header img {
-	max-width: 250px;
-	max-height: 250px;
-	border-radius: 50%;
-	text-align: center;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
-}
-
-/* my name in big font*/
+/* my name in big font */
 .main-header h1 {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
 	font-size: 500%;
-	color: #333333;
+	color: #ffffff;
 	letter-spacing: 5px;
   	padding: 10px;
   	text-align: center;
   	border-style: solid;
-  	border-color: #000000;
+  	border-color: #ffffff;
   	border-width: 2px;
 }
 
 /* the little */
 .main-header p {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
 	text-align: center;
-	font-size: 100%;
-	color: #000000;
+	font-size: 120%;
+	color: #ffffff;
+	margin-bottom: 25px;
 }
 
-.projects img {
-	max-width: 500px;
-	max-height: 500px;
+.project-table img {
+	max-width: 400px;
+	max-height: 400px;
+	border-radius: 10px;
 }
 
 /* big font */
 .projects h1 {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
 	font-size: 500%;
-	color: #000000;
+	color: #ffffff;
 	letter-spacing: 5px;
   	padding: 10px;
   	text-align: center;
   	border-style: solid;
-  	border-color: #000000;
+  	border-color: #ffffff;
   	border-width: 2px;
+  	margin-top: 20%;
+  	text-decoration: none;
 }
 
-.projects h2 {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	font-size: 300%;
-	text-align: center;
-	color: #000000;
+.projects a {
 	text-decoration: none;
-	border-style: solid;
-	border-color: #000000;
-	border-width: 1px;
-	border-top: 1px;
-	border-left: 1px;
-	border-right: 1px;
-
 }
 
-/* the little words under my name */
+/* the little words */
 .projects p {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
 	text-align: center;
-	font-size: 100%;
-	color: #000000;
+	font-size: 120%;
+	color: #ffffff;
+	margin-bottom: -50px;
 }
 
-.projects .description {
+.project-table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.project-table td {
+	vertical-align: top;
+	text-align: center;
+	padding: 25px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 110%;
+	color: #ffffff;
+}
+
+.project-table .description {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	text-align: center;
 	font-size: 100%;
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	border-style: solid;
-	border-color: #000000;
+	border-color: #ffffff;
 	border-width: 1px;
 	border-bottom: 1px;
 	border-left: 1px;
 	border-right: 1px;
 }
 
-.projects .description a {
-	color: #19596E;
+.project-table .description a {
+	color: #ffffff;
+	text-decoration: underline;
 }
 
-.projects .description a:hover {
-	color: #19596E;
+.personal-links h1 {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 500%;
+	color: #ffffff;
+	letter-spacing: 5px;
+  	padding: 10px;
+  	text-align: center;
+  	border-style: solid;
+  	border-color: #ffffff;
+  	border-width: 2px;
+  	text-decoration: none;
+  	margin-bottom: 15px;
 }
 
-.projects .personal-links p {
+.personal-links p {
 	font-size: 150%;
 	text-align: center;
 	border-style: solid;
-	border-color: #000000;
+	border-color: #ffffff;
 	border-width: 1px;
 	text-decoration: none;
 	transition: all .4s ease 0s;
 }
 
-.projects .personal-links a:hover {
+.personal-links a {
+	color: #ffffff;
 	text-decoration: none;
 }
 
-.projects .personal-links p:hover {
-	color: #FFFFFF;
-	background: #000000;
+.personal-links a:hover {
 	text-decoration: none;
+}
+
+.personal-links p:hover {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.personal-links table {
+	width: 100%;
+	table-layout: fixed;
+
+}
+
+.personal-links td {
+	vertical-align: top;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 110%;
+	color: #ffffff;
+}
+
+.resume-links-top table {
+	width: 100%;
+	table-layout: fixed;
+
+}
+
+.resume-links-top td {
+	vertical-align: top;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	font-size: 110%;
+	color: #ffffff;
+}
+
+.left {
+	padding-right: 5px;
+}
+
+.right {
+	padding-left: 5px;
+}
+
+.center {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.resume-links-top p {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 150%;
+	text-align: center;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1px;
+	text-decoration: none;
+	transition: all .4s ease 0s;
+}
+
+.resume-links-top a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.resume-links-top a:hover {
+	text-decoration: none;
+}
+
+.resume-links-top p:hover {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.resume-header h1 {
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 500%;
+	color: #ffffff;
+	letter-spacing: 5px;
+  	padding: 10px;
+  	text-align: center;
+  	border-style: solid;
+  	border-color: #ffffff;
+  	border-width: 2px;
+  	margin-bottom: -3.5%;
 }
 
 .container .bottom h4 {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 700;
-	font-size: 105%;
-	color: #000000;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 115%;
+	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
 	border-style: solid;
-	border-color: #e6e6e6;
+	border-color: #ffffff;
 	border-width: 1px;
 	border-bottom: 1px;
 	border-left: 1px;
 	border-right: 1px;
+	padding-top: 10px;
 }
 
 .container .bottom p {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 300;
-	font-size: 90%;
-	color: #000000;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	font-size: 100%;
+	color: #ffffff;
 	text-align: center;
+	margin-top: -10px;
 }
 
 /*navbar formatting*/
-@media (min-width: 768px){
-	.navbar-nav{
-	    margin: 0 auto;
-	    display: table;
-	    table-layout: fixed;
-	    float:none;
-	    font-size: 175%;
-	}
-} 
-
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+    font-size: 150%;
+}
+ 
 /* navbar */
 .navbar-default {
-    background-color: #808080;
     border-bottom-width: 0px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .navbar-default .navbar-nav > li > a {
-	font-family: 'Quicksand', sans-serif;
-	color: #000000;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	color: #ffffff;
 	transition: all .4s ease 0s;
-}
-
-/* stupid pipes in header */
-.vertical-divider {
-	font-family: 'Quicksand', sans-serif;
-	color: #000000;
-	font-size: 110%;
-	padding-top: 1.2%;
 }
 
 /* color of mouse-over navbar text */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 /* color of mouse-over active navbar text & background */
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	font-family: 'Quicksand', sans-serif;
-    color: #FFFFFF;
-    background-color: #808080;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
-
+a.anchor {
+	display: block;
+	position: relative;
+	top: -70px;
+	visibility: hidden;
+}
 
 
 
