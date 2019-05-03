@@ -10,7 +10,7 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 4em 1em;
+  padding: 2em 1em;
   max-width: 50em;
 }
 
@@ -25,6 +25,7 @@ header {
   padding: 10vw 2em;
   text-align: center;
 }
+
 /* 
 header a {
   border: 1px solid #e81c4f;
@@ -40,7 +41,7 @@ header a {
 } */
 
 header h1 {
-  background-color: black;
+  background-color: #333;
   color: white;
 }
 
@@ -54,7 +55,7 @@ header h1 {
 }
 
 header p {
-  background-color: black;
+  background-color: #333;
   color: white;
   margin: 1em auto;
   max-width: 30em;
@@ -78,6 +79,15 @@ h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
+
+h3 {
+  margin: 1em auto;
+}
+
+/* h3 a {
+  text-decoration: none;
+  color: #333;
+} */
 
 code,
 pre {
