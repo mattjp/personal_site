@@ -39,9 +39,7 @@ header a {
   transition-property: color, background;
 } */
 
-header 
-h1,
-h3 {
+header h1 {
   background-color: black;
   color: white;
 }
@@ -52,14 +50,15 @@ header h1 {
   font-size: 2.5em;
   font-weight: 300;
   margin: 0 auto;
-  width: 8em;
+  max-width: 6.5em;
 }
 
-header h3 {
-  /* background-color: black; */
-  /* color: white; */
+header p {
+  background-color: black;
+  color: white;
   margin: 1em auto;
-  width: 30em;
+  max-width: 30em;
+  padding: 0.25em 0;
 }
 
 /* header img {
