@@ -26,6 +26,13 @@ header {
   text-align: center;
 }
 
+main img {
+  display: inline-block;
+  height: 20%;
+  vertical-align: top;
+  width: 20%;
+}
+
 /* 
 header a {
   border: 1px solid #e81c4f;
@@ -81,7 +88,7 @@ h2 {
 }
 
 h3 {
-  margin: 1em auto;
+  margin: 1.5em 0em auto;
 }
 
 /* h3 a {
