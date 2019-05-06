@@ -15,11 +15,11 @@ main {
 }
 
 header {
-  background-color: #263d36;
   background-image: url("tree_super_low.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 16em;
   line-height: 1.2;
   max-width: none;
   padding: 10vw 2em;
@@ -33,31 +33,17 @@ main img {
   width: 20%;
 }
 
-/* 
-header a {
-  border: 1px solid #e81c4f;
-  border-radius: 290486px;
-  color: white;
-  font-size: 0.6em;
-  letter-spacing: 0.2em;
-  padding: 1em 2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: none 200ms ease-out;
-  transition-property: color, background;
-} */
-
 header h1 {
   background-color: #333;
   color: white;
-}
-
-header h1 {
-  /* background-color: black; */
-  /* color: white; */
   font-size: 2.5em;
   font-weight: 300;
   margin: 0 auto;
+  line-height: normal;
+  margin-top: 2em;
+  /* margin-bottom: 0; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   max-width: 6.5em;
 }
 
