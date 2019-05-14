@@ -19,7 +19,7 @@ header {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 16em;
+  height: 18em;
   line-height: 1.2;
   max-width: none;
   padding: 10vw 2em;
@@ -100,7 +100,7 @@ pre {
 }
 
 a {
-  color: #333;
+  color: #fc2f70;
   position: relative;
   text-decoration: none;
   z-index: 1;
@@ -109,18 +109,17 @@ a {
 a::before {
   content: '';
   position: absolute;
-  z-index: -1;
-  top: 0;
   bottom: 0;
-  left: -0.25em;
-  right: -0.25em;
+  left: 0;
+  right: 0;
+  height: 2px;
   background-color: #fc2f70;
-  transform-origin: bottom center;
-  transform: scaleY(0.1);
-  transition: all 0.1s ease-in-out;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
 }
 
 a:hover::before {
-  transform: scaleY(1);
-  background-color: hsla(341, 97%, 59%, 0.75);
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
