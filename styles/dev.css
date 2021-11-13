@@ -26,19 +26,6 @@ header {
   text-align: center;
 }
 
-/*old*/
-/*header {*/
-  /*background-image: url("../images/tree_super_low.jpg");*/
-  /*background-position: center top;*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  /*height: 1em;*/
-  /*line-height: 1.2;*/
-  /*max-width: none;*/
-  /*padding: 10vw 2em;*/
-  /*text-align: center;*/
-/*}*/
-
 main {
   margin: 0 auto;
   padding: 2em 1em;
@@ -46,9 +33,7 @@ main {
 }
 
 main p {
-  /*margin: -1em 0em 0em 0em;*/
   margin-top: 0;
-  /*padding-bottom: 0em;*/
 }
 
 h1, h2, h3 {
@@ -80,11 +65,11 @@ h3 {
 
 h3 a {
   color: #1d3557;
-  text-decoration: none;
 }
 
 h3 a:hover {
-  text-decoration: underline;
+  color: #f1faee;
+  background-color: #1d3557;
 }
 
 .break {
